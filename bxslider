@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>testing bxslider</title>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300|Devonshire' rel='stylesheet' type='text/css'>
+<script src="http://skyway-avenue.com/js/bxslider/jquery.bxslider.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#anwslideshow').bxSlider({
+  infiniteLoop: false,
+  hideControlOnEnd: true,
+  slideWidth: 880,
+  minSlides: 1,
+  maxSlides: 1,
+  slideMargin: 10
+});
+</script>
+<style type="text/css">
+#anwslideshow {
+  width:900px;
+  height:350px;
+  background:#fff url(http://axnewxworld.b1.jcink.com/uploads/axnewxworld/anwtopbanner.png) no-repeat;
+}
+</head>
+<body>
+<div id="anwslideshow">
+<div><div style="font-size:28px;font-family:'Devonshire',cursive;color:#000;">a new world</div></div>
+<div><div style="font-size:28px;font-family:'Devonshire',cursive;color:#000;">a new world</div></div>
+</div>
+</body>
+</html>
